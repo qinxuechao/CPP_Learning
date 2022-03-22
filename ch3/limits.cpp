@@ -7,7 +7,7 @@
 
 int main() {
     using namespace std;
-    int n_int = INT_MAX;
+    size_t n_int = SIZE_MAX;
     short n_short = SHRT_MAX;
     long n_long = LONG_MAX;
     long long n_llong = LLONG_MAX;
