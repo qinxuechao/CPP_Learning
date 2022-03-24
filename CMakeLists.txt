@@ -4,4 +4,4 @@ project(CPP_Learning)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(CPP_Learning ch4/instr.cpp)
+add_executable(CPP_Learning ch4/strtype2.cpp)
