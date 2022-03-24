@@ -6,9 +6,13 @@
 
 int main() {
     using namespace std;
-    cout << "Come up and C++ me some time.";
+    char dog[8] =  {'b', 'e', 'a',' ', 'e', 'f'}; // Not a string
+    char cat[8] = {'f', 'a', 't', 'e', 's', 's', 'a', '\0'}; // string
+    cout << "Dog:";
+    cout << dog;
     cout << endl;
-    cout << "You won't regret it!" << endl;
+
+    cout << "Cat: " << cat << endl;
     return 0; // terminate main()
 }
 
