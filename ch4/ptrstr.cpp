@@ -17,7 +17,7 @@ int main() {
 
     cout << "Enter a kind of animal:";
     cin >> animal;
-    // cin >> ps; Too horible a blunder to try; ps doesn't point to allocated space
+    // cin >> ps; Too horrible a blunder to try; ps doesn't point to allocated space
 
     ps = animal;
     cout << ps << "!\n";
