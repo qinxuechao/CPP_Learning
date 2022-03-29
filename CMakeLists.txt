@@ -4,4 +4,4 @@ project(CPP_Learning)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(CPP_Learning ch5/waiting.cpp)
+add_executable(CPP_Learning ch5/textin1.cpp)
