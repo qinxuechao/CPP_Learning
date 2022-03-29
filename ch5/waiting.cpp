@@ -18,6 +18,8 @@ int main() {
         cout << "time past: " << clock() - start << "ms" << endl;;               // note the semicolon
     cout << "done \a\n";
 
+    int x = (1, 024);
+    cout << "x = " << x << endl;
     return 0;
 }
 
