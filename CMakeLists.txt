@@ -4,4 +4,4 @@ project(CPP_Learning)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(CPP_Learning ch5/textin1.cpp)
+add_executable(CPP_Learning ch6/cingolf.cpp)
