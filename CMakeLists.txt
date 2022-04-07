@@ -7,5 +7,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 #add_subdirectory(CPP_Learning ch9/file2.cpp)
 #target_link_directories(CPP_Learning ch9/file2.cpp)
-add_executable(CPP_Learning ch9/file1.cpp ch9/file2.cpp)
+#add_executable(CPP_Learning ch9/file1.cpp ch9/file2.cpp)
 #target_compile_definitions(CPP_Learning ch9/file2.cpp)
+
+add_executable(CPP_Learning ch9/external.cpp ch9/support.cpp)
