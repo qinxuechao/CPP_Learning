@@ -10,4 +10,4 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(CPP_Learning ch9/file1.cpp ch9/file2.cpp)
 #target_compile_definitions(CPP_Learning ch9/file2.cpp)
 
-add_executable(CPP_Learning ch10/usestock0.cpp ch10/stock00.cpp )
+add_executable(CPP_Learning ch10/usestock2.cpp ch10/stock20.cpp )
