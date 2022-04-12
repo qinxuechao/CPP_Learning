@@ -18,7 +18,7 @@ namespace VECTOR {
         double x;       // horizontal value
         double y;       // vertical value
         double mag;     // length of vector
-        double angle;   // direction of vector in degrees
+        double ang;   // direction of vector in degrees
         Mode mode;
 
         // private methods for setting values
@@ -45,7 +45,7 @@ namespace VECTOR {
 
         double magval() const { return mag; }
 
-        double angval() const { return angle; }
+        double angval() const { return ang; }
 
         void polar_mode();      // set mode to POL
         void rect_mode();       // set mode to RECT
@@ -60,6 +60,8 @@ namespace VECTOR {
 
         // friends
         friend Vector operator*(double n, const Vector &a);
+
+        friend std::ostream &operator<<(std::ostream &os, const Vector &v);
     };
 }
 
