@@ -10,4 +10,4 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(CPP_Learning ch9/file1.cpp ch9/file2.cpp)
 #target_compile_definitions(CPP_Learning ch9/file2.cpp)
 
-add_executable(CPP_Learning ch11/vector.cpp ch11/vector.h)
+add_executable(CPP_Learning ch11/vector.cpp ch11/vector.h ch12/strngbad.cpp ch12/strngbad.h ch12/vegnews.cpp)
