@@ -43,7 +43,7 @@ int main() {
         String *shortest = &sayings[0];
         String *first = &sayings[0];
         for (i = 1; i < total; i++) {
-            if (sayings[i].length() > shortest->length())
+            if (sayings[i].length() < shortest->length())
                 shortest = &sayings[i];
             if (sayings[i] < *first)
                 first = &sayings[i];
