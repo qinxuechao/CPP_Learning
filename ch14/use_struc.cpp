@@ -32,7 +32,7 @@ void set(Student &sa, int n) {
     cout << "Please enter the student's name: ";
     getline(cin, sa);
     cout << "Please enter " << n << " quiz scores:\n";
-    for (int i = 0; i < 0; i++) {
+    for (int i = 0; i < n; i++) {
         cin >> sa[i];
     }
     while (cin.get() != '\n')

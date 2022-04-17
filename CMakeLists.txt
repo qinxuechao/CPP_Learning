@@ -10,4 +10,4 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(CPP_Learning ch9/file1.cpp ch9/file2.cpp)
 #target_compile_definitions(CPP_Learning ch9/file2.cpp)
 
-add_executable(CPP_Learning ch13/studentc.cpp ch13/use_struc.cpp)
+add_executable(CPP_Learning ch14/studentc.cpp ch14/use_struc.cpp)
