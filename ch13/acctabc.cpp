@@ -14,7 +14,7 @@ using std::string;
 AcctABC::AcctABC(const std::string &s, long an, double bal) {
     fullname = s;
     acctNum = an;
-    bal = bal;
+    balance = bal;
 }
 
 void AcctABC::Deposit(double amt) {
@@ -32,6 +32,8 @@ AcctABC::Formatting AcctABC::SetFormat() const {
     f.pr = cout.precision(2);
     return f;
 }
+
+void AcctABC::Withdraw(double amt) { balance -= amt; }
 
 void AcctABC::Restore(Formatting &f) const {
     cout.setf(f.flag, ios_base::floatfield);
