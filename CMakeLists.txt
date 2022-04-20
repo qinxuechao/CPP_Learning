@@ -10,4 +10,4 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(CPP_Learning ch9/file1.cpp ch9/file2.cpp)
 #target_compile_definitions(CPP_Learning ch9/file2.cpp)
 
-add_executable(CPP_Learning ch15/tv.cpp ch15/tv.h ch15/use_tv.cpp)
+add_executable(CPP_Learning ch15/nested.cpp ch15/quequetp.h)
