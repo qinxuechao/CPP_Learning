@@ -10,4 +10,4 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(CPP_Learning ch9/file1.cpp ch9/file2.cpp)
 #target_compile_definitions(CPP_Learning ch9/file2.cpp)
 
-add_executable(CPP_Learning ch16/vect2.cpp)
+add_executable(CPP_Learning ch18/wrapped.cpp)
