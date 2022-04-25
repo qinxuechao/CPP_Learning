@@ -33,7 +33,7 @@ int main() {
     cout << endl;
 
     cout << "Difference of A and B:\n";
-    set_difference(A.begin(), B.end(), B.begin(), B.end(), out);
+    set_difference(A.begin(), A.end(), B.begin(), B.end(), out);
     cout << endl;
 
     set<string> C;
