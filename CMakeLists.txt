@@ -14,7 +14,7 @@ message(STATUS "start running cmake...")
 #    include_directories(${Boost_INCLUDE_DIRS})
 #endif ()
 
-add_executable(CPP_Learning ch18/stdmove.cpp)
+add_executable(CPP_Learning ch16/setopts.cpp)
 #if (Boost_FOUND)
 #    target_link_libraries(CPP_Learning ${Boost_LIBRARIES})
 #endif ()
